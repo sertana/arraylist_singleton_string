@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="38bd931a-2e52-47cc-aa9f-1ac88ca3875c" name="Default Changelist" comment="" />
+    <list default="true" id="38bd931a-2e52-47cc-aa9f-1ac88ca3875c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,22 +41,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="76" />
+          <entry key="java" value="79" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="76" />
+          <entry key="JAVA" value="79" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1986" />
+          <entry key="java" value="2077" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1986" />
+          <entry key="JAVA" value="2077" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -63,14 +65,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/arraylist/example/UseOfIterator.java">
+        <entry file="file://$PROJECT_DIR$/src/arraylist/example/StringBufferExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#249#258#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="135">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -83,6 +81,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -97,6 +98,7 @@
         <option value="$PROJECT_DIR$/src/nested/loop/NestedLoop.java" />
         <option value="$PROJECT_DIR$/src/arraylist/example/UseOfArrayList.java" />
         <option value="$PROJECT_DIR$/src/arraylist/example/UseOfIterator.java" />
+        <option value="$PROJECT_DIR$/src/arraylist/example/StringBufferExample.java" />
       </list>
     </option>
   </component>
@@ -106,6 +108,7 @@
     <option name="width" value="1331" />
     <option name="height" value="784" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -151,7 +154,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538767448008" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539112962780" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.spelling" />
   </component>
   <component name="RunDashboard">
@@ -166,7 +169,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.UseOfIterator">
+  <component name="RunManager" selected="Application.StringBufferExample">
     <configuration name="NestedLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="nested.loop.NestedLoop" />
       <module name="project8" />
@@ -180,12 +183,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="singleton.example.TestCar" />
+    <configuration name="StringBufferExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arraylist.example.StringBufferExample" />
       <module name="project8" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="singleton.example.*" />
+          <option name="PATTERN" value="arraylist.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -234,18 +237,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.TestHouse" />
-      <item itemvalue="Application.TestCar" />
       <item itemvalue="Application.NestedLoop" />
       <item itemvalue="Application.UseOfArrayList" />
       <item itemvalue="Application.UseOfIterator" />
+      <item itemvalue="Application.StringBufferExample" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringBufferExample" />
         <item itemvalue="Application.UseOfIterator" />
         <item itemvalue="Application.UseOfArrayList" />
         <item itemvalue="Application.NestedLoop" />
         <item itemvalue="Application.TestHouse" />
-        <item itemvalue="Application.TestCar" />
       </list>
     </recent_temporary>
   </component>
@@ -264,16 +267,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="89" y="43" width="1331" height="784" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24980605" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24980605" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32658958" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32658958" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Messages" weight="0.32658958" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -366,11 +370,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/arraylist/example/UseOfArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="16" selection-end-column="24" />
+        <state relative-caret-position="405">
+          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#174#183#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -381,8 +384,14 @@
           <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#249#258#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arraylist/example/StringBufferExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
